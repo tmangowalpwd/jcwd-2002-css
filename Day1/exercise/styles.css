@@ -39,6 +39,11 @@
   margin-left: calc(494px - 83px);
 }
 
+.go-back:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .product-name {
   font-size: 36px;
   /* margin-left: 79px; */
@@ -95,5 +100,14 @@
   text-transform: uppercase;
   background-color: black;
   color: white;
-  border: 0;
+  border: 1px solid black;
+  transition: 150ms ease-out;
+  transition-property: border-radius, color, background-color;
+}
+
+.add-to-cart:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
 }
